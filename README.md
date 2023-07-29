@@ -7,7 +7,6 @@ A Filipino living in Canada who often looks for exchange rate between CAD,USD,PH
 <h2>Features:</h2>
 
 •Real-time currency conversion using the latest exchange rates.\
-•Supports conversion between a wide range of currencies.\
 •Simple and user-friendly interface.\
 •Option to select the base and target currencies for conversion\
 •Automatically updates exchange rates at regular intervals\
