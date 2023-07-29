@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="531.0" prefWidth="492.0" spacing="20.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.currencyconverterproject.Controller">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+
+   <!--Using stackpane to overlap output and image || logo-->
+   <StackPane prefHeight="150.0" prefWidth="200.0">
+      <!--Logo-->
+      <ImageView fx:id="logo" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <!--Result-->
+      <Label fx:id="output" alignment="CENTER" prefHeight="109.0" prefWidth="252.0" textAlignment="CENTER" textFill="#460404" textOverrun="WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Microsoft New Tai Lue Bold" size="15.0" />
+         </font>
+      </Label>
+   </StackPane>
+
+   <!--Enter Amount-->
+   <TextField fx:id="enterAmountField" prefWidth="480" promptText="Enter Amount" AnchorPane.leftAnchor="30" AnchorPane.topAnchor="175" />
+   <!-- Currency # 1 Drop Down Menu-->
+   <ComboBox id="DropMenu1" fx:id="currencyBoxOne" onAction="#setCurrencyOne" prefHeight="25.0" prefWidth="295.0" promptText="Select From Currency" />
+   <!--To-->
+   <Label fx:id="to" prefHeight="21.0" prefWidth="84.0" text="       TO" textAlignment="CENTER" textFill="#460404" textOverrun="WORD_ELLIPSIS">
+      <font>
+         <Font name="System Bold Italic" size="15.0" />
+      </font>
+   </Label>
+   <!-- Currency # 2 Drop Down Menu-->
+   <ComboBox id="DropMenu2" fx:id="currencyBoxTwo" layoutX="55.0" layoutY="67.0" onAction="#setCurrencyTwo" prefHeight="18.0" prefWidth="292.0" promptText="Select To Currency" />
+
+   <!--Convert Button-->
+   <Button fx:id="convertButton" mnemonicParsing="false" onAction="#convertCurrency" text="Convert" />
+   <!--Copy output Button-->
+   <Button fx:id="copy" mnemonicParsing="false" text="Copy Result!">
+      <tooltip>
+         <Tooltip fx:id="toolTip" text="Empty Tooltip" />
+      </tooltip></Button>
+
+
+</VBox>
