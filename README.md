@@ -9,8 +9,7 @@ A Filipino living in Canada who often looks for exchange rate between CAD,USD,PH
 •Real-time currency conversion using the latest exchange rates.\
 •Simple and user-friendly interface.\
 •Option to select the base and target currencies for conversion\
-•Automatically updates exchange rates at regular intervals\
-•Transitions ImageView to Output
+•Transitions ImageView to Output\
 •Added a copy button to copy result + shows "Copied!" tooltip to ensure user that its copied
 
 
