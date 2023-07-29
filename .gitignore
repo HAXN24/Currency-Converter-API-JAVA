@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e3ee54aed2f3d036af0e6eef2779819d38f7b671
 # Compiled class file
 *.class
 
@@ -23,6 +26,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+<<<<<<< HEAD
 =======
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -63,3 +67,5 @@ build/
 ### Mac OS ###
 .DS_Store
 >>>>>>> 4a71df8 (Initial Commit)
+=======
+>>>>>>> e3ee54aed2f3d036af0e6eef2779819d38f7b671
