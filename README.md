@@ -35,7 +35,7 @@ A Filipino living in Canada who often looks for exchange rate between CAD,USD,PH
 2.) Enter the amount you want to convert in the "Enter Amount" field.\
 3.) Select the base currency from the "From" dropdown menu.\
 4.) Select the target currency from the "To" dropdown menu.\
-5.) Click the "Convert" button to see the converted amount in the "Result" field.
+5.) Click the "Convert" button to see the converted amount in the "Result" field.\
 6.) Optional: Copy the result using the copy button!
 
 
