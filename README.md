@@ -2,7 +2,7 @@
 A java-based software that uses real-time exchange rate from Currency Data API - Limited to CAD,USD,PHP with JAVAFX
 
 <h2>NOTE:</h2>
-A Filipino living in Canada who often looks for exchange rate between CAD,USD,PHP. I wanted to make my own currency exchange software!
+A Filipino living in Canada who often looks for exchange rates between CAD,USD,PHP. I wanted to make my own currency exchange software!
 
 <h2>Features:</h2>
 
