@@ -1,4 +1,4 @@
-package com.example.currencyconverterproject;
+package project.controller.files;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -10,14 +10,14 @@ import javafx.stage.Stage;
 import java.io.File;
 import java.io.IOException;
 
-public class MainApplication extends Application {
+public class Main extends Application {
 
 
 
     @Override
     public void start(Stage primaryStage) throws IOException {
 
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("currencyConverterView.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/project/view/View.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 450);
         primaryStage.setTitle("Currency Converter - HAXN24");
         primaryStage.setScene(scene);
