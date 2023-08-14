@@ -1,8 +1,6 @@
-# Currency-Converter-API-JAVA 
-A java-based software that uses real-time exchange rate from Currency Data API - Limited to CAD,USD,PHP with JAVAFX
+# Currency-Converter-API-JAVA
 
-<h2>NOTE:</h2>
-A Filipino living in Canada who often looks for exchange rates between CAD,USD,PHP. I wanted to make my own currency exchange software!
+A java-based software that uses real-time exchange rate from Currency Data API - Limited to CAD,USD,PHP with JAVAFX
 
 <h2>Features:</h2>
 
@@ -12,14 +10,12 @@ A Filipino living in Canada who often looks for exchange rates between CAD,USD,P
 •Transitions ImageView to Output\
 •Added a copy button to copy result + shows "Copied!" tooltip to ensure user that its copied
 
-
 <h2>Dependencies:</h2>
 
 •Java Development Kit (JDK)\
 •JavaFX\
 •GSON Library\
 •OkHttp Library
-
 
 <h2>Installation and Setup:</h2>
 
@@ -36,7 +32,6 @@ A Filipino living in Canada who often looks for exchange rates between CAD,USD,P
 4.) Select the target currency from the "To" dropdown menu.\
 5.) Click the "Convert" button to see the converted amount in the "Result" field.\
 6.) Optional: Copy the result using the copy button!
-
 
 <h3>API Used:</h3>
 
